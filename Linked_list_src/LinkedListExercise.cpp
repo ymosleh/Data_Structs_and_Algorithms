@@ -130,9 +130,9 @@ int main (int argc, char *argv[]) {
     list1.append(4);
 
     LinkedList<int> list2;
-    // list2.append(1);
-    // list2.append(3);
-    // list2.append(4);
+    list2.append(1);
+    list2.append(3);
+    list2.append(4);
 
     Node<int>* mergedList = mergeTwoLists(list1.head(), list2.head());
     cout << "***Merge two List output:\n";
